@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Make the track transparent */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent; /* Initially transparent */
+    border-radius: 10px; /* Round the thumb */
+    transition: background 0.3s ease; /* Smooth transition */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; /* Make the thumb black when hovered */
+  }
+  
+  /* When user starts scrolling, thumb will show */
+  ::-webkit-scrollbar-thumb:active {
+    background: black; /* Keep the thumb black when scrolling */
+  }
+  
