@@ -1,2 +1,3 @@
-./back-end/__pycache__
-./back-end/myenv
+./back-end/__pycache__/
+./back-end/myenv/
+./front-end/node_modules/
